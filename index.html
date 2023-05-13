@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- link to style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="skill.css">
+    <link rel="stylesheet" href="learnmorebtn.css">
+    <!-- GOOGLE fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap" rel="stylesheet">
+    <!-- Link to Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+    <title>Alan Wu GIS Portfolio</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Home</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <!-- <li><a href="#">Gallery</a></li> -->
+                    <li><a href="projects/files/JiaYu_Wu_Resume_GIS.pdf">Resume</a></li>
+                    <li><a href="https://github.com/Alanrocks?tab=repositories">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/jiayu0601alan/">Linkedin</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+    <div class="header">
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>
+      </div>
+    <section class="home">
+        <div class="name">
+			<h1 class="box">
+				Alan Wu
+            </h1>
+            <p class="box2">GIS Analyst | GIS Developer</p>
+            <svg class="arrows">
+                <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg>
+         </div>
+         
+    </section>
+    
+    <div>
+				<p class="myP">
+				About me
+			</p>
+    </div>
+    <div class="photoback">
+        <img class="photo" src="images/portfolio.jpg">
+    </div>
+    <div>
+        <p class="aboutMe">
+            Hello, everyone! I'm Alan Wu, a highly motivated GIS professional based in Toronto, Canada. With a Master's Degree in Geomatics for Environmental Management and a strong background in GIS analysis and development, I am passionate about leveraging spatial data to uncover insights and drive informed decision-making. My proficiency in Cutting-edge tools enables me to conduct geospatial data analysis. Let's explore the world through data and maps together!
+            </p>
+    </div>
+
+<!-- SKILLS -->
+
+<div>
+    <p class="myP myP2">
+    Skills
+</p>
+</div>
+<div class="skill_col">
+<div class="skill_col_1">
+    <p class="coll">GIS Analysis Softwares</p>
+    <ul class="skills-bar-container">
+        <li>
+        <div class="progressbar-title">
+            <h3>ArcGIS pro</h3>
+            <span class="percent" id="arcgis-pourcent"></span>
+        </div>
+        <div class="bar-container">
+            <span class="progressbar progressred" id="progress-arcgis"></span>
+        </div>
+        </li>
+        <li>
+        <div class="progressbar-title">
+            <h3>QGIS</h3>
+            <span class="percent" id="qgis-pourcent"></span>
+        </div>
+        <div class="bar-container">
+            <span class="progressbar progressblue" id="progress-qgis"></span>
+        </div>
+        </li>
+        
+        <li>
+        <div class="progressbar-title">
+            <h3>R</h3>
+            <span class="percent" id="R-pourcent"></span>
+        </div>
+        <div class="bar-container">
+            <span class="progressbar progresspurple" id="progress-R"></span>
+        </div>
+        </li>
+        
+        <li>
+        <div class="progressbar-title">
+            <h3>Python</h3>
+            <span class="percent" id="python-pourcent"></span>
+        </div>
+        <div class="bar-container">
+            <span class="progressbar progressorange" id="progress-python"></span>
+        </div>
+        </li>
+        <li>
+            <div class="progressbar-title">
+                <h3>SQL</h3>
+                <span class="percent" id="SQL-pourcent"></span>
+            </div>
+            <div class="bar-container">
+                <span class="progressbar progressgreen" id="progress-SQL"></span>
+            </div>
+            </li>
+    </ul>
+    </div>
+    <div class="skill_col_2">
+        <p class="coll">Web GIS Development</p>
+        <ul class="skills-bar-container">
+        <li>
+        <div class="progressbar-title">
+            <h3>HTML5 / CSS</h3>
+            <span class="percent" id="html-pourcent"></span>
+        </div>
+        <div class="bar-container">
+            <span class="progressbar progressred" id="progress-html"></span>
+        </div>
+        </li>
+        <li>
+        <div class="progressbar-title">
+            <h3>JavaScript</h3>
+            <span class="percent" id="javascript-pourcent"></span>
+        </div>
+        <div class="bar-container">
+            <span class="progressbar progressblue" id="progress-javascript"></span>
+        </div>
+        </li>
+        
+        <li>
+        <div class="progressbar-title">
+            <h3>OpenLayers</h3>
+            <span class="percent" id="openlayers-pourcent"></span>
+        </div>
+        <div class="bar-container">
+            <span class="progressbar progresspurple" id="progress-openlayers"></span>
+        </div>
+        </li>
+        
+        <li>
+        <div class="progressbar-title">
+            <h3>Leaflet</h3>
+            <span class="percent" id="leaflet-pourcent"></span>
+        </div>
+        <div class="bar-container">
+            <span class="progressbar progressorange" id="progress-leaflet"></span>
+        </div>
+        </li>
+        
+        <li>
+            <div class="progressbar-title">
+                  <h3>Mapbox</h3>
+                 <span class="percent" id="mapbox-pourcent"></span>
+              </div>
+             <div class="bar-container">
+                   <span class="progressbar progressgreen" id="progress-mapbox"></span>
+             </div>
+             </li>
+             
+        <li>
+        <div class="progressbar-title">
+            <h3>GeoServer</h3>
+            <span class="percent" id="geoserver-pourcent"></span>
+        </div>
+        <div class="bar-container">
+            <span class="progressbar progressorangered" id="progress-geoserver"></span>
+        </div>
+        </li>
+
+        <li>
+            <div class="progressbar-title">
+                <h3>PostGIS / PostGre SQL</h3>
+                <span class="percent" id="postgis-pourcent"></span>
+            </div>
+            <div class="bar-container">
+                <span class="progressbar progresspink" id="progress-postgis"></span>
+            </div>
+            </li>
+
+       
+        
+    </ul>
+
+
+
+</div>
+<div class="skill_col_3">
+    <p class="coll">GIS Skills</p>
+    <ul class="skills-bar-container">
+    <li>
+    <div class="progressbar-title">
+        <h3>Spatial Analysis</h3>
+        <span class="percent" id="creativity-pourcent"></span>
+    </div>
+    <div class="bar-container">
+        <span class="progressbar progressred" id="progress-creativity"></span>
+    </div>
+    </li>
+    <li>
+    <div class="progressbar-title">
+        <h3>Cartography</h3>
+        <span class="percent" id="motivation-pourcent"></span>
+    </div>
+    <div class="bar-container">
+        <span class="progressbar progressblue" id="progress-motivation"></span>
+    </div>
+    </li>
+    
+    <li>
+    <div class="progressbar-title">
+        <h3>Vectorization</h3>
+        <span class="percent" id="vector-pourcent"></span>
+    </div>
+    <div class="bar-container">
+        <span class="progressbar progresspurple" id="progress-vector"></span>
+    </div>
+    </li>
+    
+    <li>
+    <div class="progressbar-title">
+        <h3>Manipulate Complex Datasets</h3>
+        <span class="percent" id="dataset-pourcent"></span>
+    </div>
+    <div class="bar-container">
+        <span class="progressbar progressorange" id="progress-dataset"></span>
+    </div>
+    </li>
+    
+    <li>
+    <div class="progressbar-title">
+        <h3>Detail-Oriented</h3>
+        <span class="percent" id="detail-pourcent"></span>
+    </div>
+    <div class="bar-container">
+        <span class="progressbar progressgreen" id="progress-detail"></span>
+    </div>
+    </li>
+    <li>
+        <div class="progressbar-title">
+            <h3>Problem-Solving</h3>
+            <span class="percent" id="problem-pourcent"></span>
+        </div>
+        <div class="bar-container">
+            <span class="progressbar progressorangered" id="progress-problem"></span>
+        </div>
+        </li>
+</ul>
+</div>
+</div>
+<!-- SKILLS END-->
+
+<!-- Education -->
+<div>
+    <p class="myP myP3">
+    Education Background
+    </p>
+</div>
+
+<div class="experiencecol">
+    <div class="exp eduexp">
+        <p class="expbox"><a href="https://forestry.ubc.ca/future-students/graduate/professional-masters-degrees/master-of-geomatics-for-environmental-management/?gclid=CjwKCAjwge2iBhBBEiwAfXDBRxMbUG7O3jg737NeImEQbzS1XdJ7lBp5qfPVHqAV20T87EFL3w_-VxoCbW0QAvD_BwE">
+            <img class="company_logo" src="images/ubc.png" alt="Logo the University of British Columbia""></a><br>
+            <span class="exptitle schoolname">The University of British Columbia </span><span class="expnote"><br> 
+                <strong style="color:rgba(234, 252, 156, 0.979);" class="expdes">Master's Degree</strong><br>
+                <strong style="color:rgba(255, 174, 205, 0.979);">Master of Geomatics for Environmental Management</strong><br>  
+                Jul 2022 - May 2023<br>
+                Vancouver, BC, Canada</span><br></p>
+        <p class="expbox"><a href="https://www.artsci.utoronto.ca/">
+            <img class="company_logo" src="images/uoft.png" alt="Logo the University of Toronto""></a><br>
+            <span class="exptitle schoolname">University of Toronto </span><span class="expnote"><br> 
+                <strong style="color:rgba(234, 252, 156, 0.979);" class="expdes">Honours Bachelor of Science</strong><br>
+                <strong style="color:rgba(255, 174, 205, 0.979);">Mathematics Major & Environmental Science Major</strong><br>  
+                Seb 2019 - June 2022<br>
+                Toronto, ON, Canada</span><br></p>
+    </div>
+
+    </div>
+</div>
+<!-- Education END -->
+<!--Experience -->
+<div>
+    <p class="myP myP3">
+    Working Experience
+    </p>
+</div>
+
+<div class="experiencecol">
+    <div class="exp">
+        <p class="expbox"><a href="https://blueventures.org/">
+            <img class="company_logo" src="images/blue_ventures.jpg" alt="Company logo of Blue Ventures"></a><br>
+            <span class="exptitle">Blue Ventures </span><span class="expnote"><br> 
+                <strong style="color:rgba(234, 252, 156, 0.979)">GIS Analyst - Capstone project</strong><br> 
+                2022 Sep - 2023 Apr<br>
+                Vancouver, BC, Canada</span><br>
+        <span class="expskill">ESRI, ArcGIS pro, QGIS, R, Tableau, Excel</span>
+        
+        <p class="expdes"> • Performed data collection and analysis of PlanetScope satellite imagery with R and ArcGIS pro to create highly 
+            detailed maps with 100 times higher spatial resolution covering over 10,700 sq km of mangroves
+            <br>• Utilized QGIS to derive CRAs of 9 different land cover types, and achieved overall accuracies of over 90% for 
+            identifying 3 classes of mangrove subtypes using R-built supervised classification models
+            <br>• Created and presented data visualizations in Tableau and Excel to showcase key insights on mangrove 
+            dynamics in Northwestern Madagascar, informing conservation efforts and management strategies.
+            </p>
+    </div>
+
+    <div class="exp">
+        <p class="expbox"><a href="https://alphalibertee.com/">
+            <img class="company_logo" src="images/alpha.png" alt="Company logo of Alpha Libertée"></a><br>
+            <span class="exptitle">Alpha Libertée </span><span class="expnote"><br> 
+                <strong style="color:rgba(234, 252, 156, 0.979)">Environmental Sustainability Researcher</strong><br>  
+                Feb 2022 - Mar 2022<br>
+                Toronto, ON, Canada</span><br>
+        <span class="expskill">Python, Tableau, Research</span>
+        
+        <p class="expdes">• Researched Carbon Footprint generated by Hut 8 Mining Corp during transactions of tokens, and presented 
+            findings to Hut 8 stakeholders led to a 20% decrease in Scope 1 and Scope 2 Emissions
+            <br>• Improved the accuracy of AI assistant Daisy's prediction on effective methods to reduce CO2 output of tokens by 
+            25% through training with Chia Network's use of low-capacity HDDs to keep low energy costs
+            <br>• Developed a comprehensive 20-page report on the best ways to limit emissions caused by electricity 
+            consumption of mining operations, which included a dashboard and a predictive model built with Python , 
+            resulting in a 30% increase in data readiness and efficiency.            
+            </p>
+        </div>
+    </div>
+    <div class="exp">
+        <p class="expbox"><a href="https://www.linkedin.com/company/beijing-sanjin-fengqing-catering-management-co-ltd/about/">
+            <img class="company_logo" src="images/sanjin.jpg" alt="Company logo of sanjin fengqing"></a><br>
+            <span class="exptitle title3">Beijing Sanjin Fengqing Catering Management Co., Ltd. </span><span class="expnote"><br> 
+                <strong style="color:rgba(234, 252, 156, 0.979)">Data / Business Analyst</strong><br>  
+                Sep 2020 - Jun 2021<br>
+                Beijing, China</span><br>
+        <span class="expskill">Python, R, SQL, Excel</span>
+        
+        <p class="expdes">• Utilized SQL and Python (Pandas) to clean and integrate data from the company's POS system, improving the 
+            personalized guest experience and raising positive ratings from 90% to 97% by analyzing order preferences, 
+            reservation habits, and demographics
+            <br>• Built predictive models using Python and R to forecast future revenue with over 80% accuracy, reduce food 
+            waste by 30%, and optimize staffing by predicting customer trends and busiest time periods.
+            <br>• Collaborated with cross-functional departments like Marketing to create a Lunchtime Voucher named YinPiao, 
+            which increased customer loyalty and generated around 3000 revisits and $42,000 in revenue over 3 months.          
+            </p>
+        </div>
+    </div>
+</div>
+<!--Experience END-->
+
+<!-- Projects -->
+
+<div>
+    <p class="myP myP4">
+    Projects
+    </p>
+    
+</div>
+<div class="projectgrid">
+<div class="row row-cols-2 row-cols-md-5 g-4">
+
+    <div class="col">
+        <h5 class="card-title" style="color:beige;font-size:2.5rem">GIS Analysis <br> </h5>
+        <h5 class="card-title" style="color:aqua;font-size:2rem">Sep 2022 - Apr 2023 <br> </h5>
+        <div class="card border-light text-light bg-dark">
+          <img src="images/project1.png" class="card-img-top" alt="project1_pic">
+          <div class="card-body">
+            <h5 class="card-title">Mangrove Subtypes Classification</h5>
+            <p class="card-text">Recent studies have addressed mangrove deforestation using remote sensing. This study examined mangrove distribution in Northwestern Madagascar using high-resolution imagery, comparing it to traditional methods. The study generated a detailed multi-date map. Challenges with classification models were identified, highlighting the potential and limitations of fine resolution satellite imagery.</p>
+            <div class="learnmore">
+                <a href="projects/project1.html">
+                <button class="shrink-border">Learn More</button>
+            </a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h5 class="card-title" style="color:beige;font-size:2.5rem">Web GIS Development <br> </h5>
+        <h5 class="card-title" style="color:aqua;font-size:2rem">Apr 2023 - May 2023<br> </h5>
+        <div class="card  border-light text-light bg-dark">
+          <img src="images/project2.png" class="card-img-top" alt="project2_pic">
+          <div class="card-body">
+            <h5 class="card-title"> Installable Photo-Sharing App</h5>
+            <p class="card-text">Developed a secure web GIS app for data sharing and mapping with a user-friendly interface and offline access similar to Snapchat. Techniques like HTML, CSS, JavaScript, Mapbox were used. Steps  including steps of setting authentication systems and accounts, building UI, converting website to PWA, customizing map style, posting and feeding data, and hosting. Customized map style increased engagement by 30% and data sharing by 20%. Thorough testing resulted in a 99.9% error-free app, receiving positive feedback for interface and security.</p>
+            <div class="learnmore">
+                <a href="projects/project2.html">
+                <button class="shrink-border">Learn More</button>
+            </a>
+            </div>
+          </div>
+        </div>
+    </div>
+        
+    <div class="col">
+        <h5 class="card-title" style="color:beige;font-size:2.5rem">Cartography <br> </h5>
+        <h5 class="card-title" style="color:aqua;font-size:2rem">Apr 2023<br> </h5>
+        <div class="card  border-light text-light bg-dark">
+          <img src="images/project3.jpg" class="card-img-top" alt="project3_pic">
+          <div class="card-body">
+            <h5 class="card-title"> 2.5D Map of Bahir Dar, Africa </h5>
+            <p class="card-text">Experience the mesmerizing 2.5D map of Bahir Dar, Ethiopia. Created from a single DEM file, it utilizes the Plan Oblique tool by Ken Field for the striking effect. Steps include downloading the DEM, using ArcGIS Pro's "Terrain Tools," and enhancing textures with hill-shade, slope functions, and Adobe Illustrator for texts and fonts.</p>
+            <div class="learnmore">
+                <a href="projects/project3.html">
+                <button class="shrink-border">Learn More</button>
+            </a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="w-100"></div>
+    <!-- ROW 2 -->
+    <div class="col">
+        <h5 class="card-title" style="color:beige;font-size:2.5rem">GIS Analysis <br> </h5>
+        <h5 class="card-title" style="color:aqua;font-size:2rem">Mar 2023 <br> </h5>
+        <div class="card border-light text-light bg-dark">
+          <img src="images/project4.png" class="card-img-top" alt="project4_pic">
+          <div class="card-body">
+            <h5 class="card-title">Machine Learning in ArcGIS Pro</h5>
+            <p class="card-text">This project explores machine learning in ArcGIS Pro to predict fuel-related variables in a post-burn scenario. Steps involve checking spatial autocorrelation, selecting relevant input variables, creating sample datasets, and using a Random Forest classifier to generate prediction surfaces. The study area focuses on the Elephant Hill wildfire in southern BC. </p>
+            
+          </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h5 class="card-title" style="color:beige;font-size:2.5rem">GIS Analysis <br> </h5>
+        <h5 class="card-title" style="color:aqua;font-size:2rem">Jan 2023<br> </h5>
+        <div class="card border-light text-light bg-dark">
+          <img src="images/project5.png" class="card-img-top" alt="project2_pic">
+          <div class="card-body">
+            <h5 class="card-title"> Spatial Interpolation using LiDAR</h5>
+            <p class="card-text">
+                The project involved using LiDAR data from the Malcolm Knapp Research Forest (MKRF) to create digital terrain models (DTMs) using spatial interpolation techniques. The project focused on inverse distance weighting (IDW), kriging, and spline methods, comparing their strengths and weaknesses. Additionally, 3D visualization in ArcGIS was explored. Maps was created to display the interpolated surfaces and differences between them.</p>
+            
+          </div>
+        </div>
+    </div>
+    <div class="col">
+        <h5 class="card-title" style="color:beige;font-size:2.5rem">GIS Analysis <br> </h5>
+        <h5 class="card-title" style="color:aqua;font-size:2rem">Feb 2023<br> </h5>
+        <div class="card border-light text-light bg-dark">
+          <img src="images/project6.png" class="card-img-top" alt="project3_pic">
+          <div class="card-body">
+            <h5 class="card-title"> Geographically Weighted Analysis</h5>
+            <p class="card-text">
+                This project used geographically weighted regression (GWR) to analyze the relationship between green spaces and demographic variables in Vancouver. GWR provided more precise estimations than ordinary least squares (OLS), with a higher R-squared value. Important variables included population density, low-income households, education level, median income, age, unemployment rate, language spoken, and immigration status.</p>
+            
+          </div>
+        </div>
+    </div>
+      <div class="w-100"></div>
+
+    <!-- ROW 3 -->
+      <div class="col">
+        <h5 class="card-title" style="color:beige;font-size:2.5rem">GIS Analysis <br> </h5>
+        <h5 class="card-title" style="color:aqua;font-size:2rem">Feb 2023 <br> </h5>
+        <div class="card border-light text-light bg-dark">
+          <img src="images/project7.png" class="card-img-top" alt="project1_pic">
+          <div class="card-body">
+            <h5 class="card-title"> Network Analysis</h5>
+            <p class="card-text">This project examines the accessibility of Coho salmon habitat on Vancouver Island. The analysis is based on large-scale observations using flow accumulation and stream network data derived from a digital elevation model (DEM). It was found that only a fraction of the total salmon habitat is accessible, primarily due to the presence of steep mountains in the island's inland area.</p>
+            
+          </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h5 class="card-title" style="color:beige;font-size:2.5rem">GIS Analysis <br> </h5>
+        <h5 class="card-title" style="color:aqua;font-size:2rem">Mar 2023<br> </h5>
+        <div class="card border-light text-light bg-dark">
+          <img src="images/project8.png" class="card-img-top" alt="project2_pic">
+          <div class="card-body">
+            <h5 class="card-title"> Individual tree detection with LiDAR</h5>
+            <p class="card-text">
+                
+
+This project involves using lidar data to detect individual trees in a forest. It focuses on two methods to detect trees: point cloud and canopy height model (CHM). Steps involve extracting point clouds for each plot location and removing outliers before using the segment_trees function to detect individual trees in the lidar data. </p>
+            
+          </div>
+        </div>
+    </div>
+    <div class="col">
+        <h5 class="card-title" style="color:beige;font-size:2.5rem">GIS Analysis <br> </h5>
+        <h5 class="card-title" style="color:aqua;font-size:2rem">Dec 2022<br> </h5>
+        <div class="card border-light text-light bg-dark">
+          <img src="images/project9.png" class="card-img-top" alt="project3_pic">
+          <div class="card-body">
+            <h5 class="card-title"> Fire Burn Severity and Vegetation Recovery in the Prouton Lakes Fire</h5>
+            <p class="card-text">
+                This project used R to analyze the fire burn severity and post-fire vegetation recovery of the Prouton Lakes fire using Landsat time-series data. It quantified burn severity, calculated vegetation indices, created yearly composites, classified burn severity, and examined post-fire vegetation recovery. The results were visualized through figures and included analyzing historical fires in BC, creating NDVI composites, and comparing NDVI values per burn severity class.</p>
+            
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- Projects END -->
+<!-- thank -->
+<p class="aboutMe thank" style="color:rgb(153, 153, 153)">
+    Made with <span class="heart"style="color:rgb(197, 58, 58);padding:5px">❤</span>  by Alan</p>
+<!-- Jquery needed -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="main.js"></script>
+<!-- Bootstrap 4 JS CDN -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+</body>
+</html>
