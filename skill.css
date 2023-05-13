@@ -120,15 +120,39 @@
 @media screen and (max-width: 450px) {
   .bar-container {
     display: none !important;
-};
+}
+.skill_col{
+  font-size:15px;
+  
+}
+.skills-bar-container{
+  background-color: #1198ff00;
+  text-align: center
+}
+.expnote{
+  background-color:#1198ff00
+}
+.change{
+  background-color: #6a9ec5
+}
+;
 
 }
+
+
 @media screen and (max-width: 450px) {
   .skill_col {
     margin-bottom:0px
+}
+.expdes{
+  font-size: 1.5rem;
+}
+.card-text{
+  font-size:1.5rem
 };
 
 }
+
 @media screen and (max-width: 450px) {
   .coll{
     font-size:15px;
