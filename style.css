@@ -8,15 +8,18 @@ body {
     font-family: 'Spectral', serif;
     font-size: 62.5%;
     font-size: 10px;
-    min-width: 200px;
+    /* width: auto; */
     height: 100%;
+    max-width: fit-content;
+    min-width:450px;
+    width:100vw;
+    min-height: 100%;
 }
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
 .name{
     height: 100vh; 
-    
     background-image: url("images/background.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -159,17 +162,35 @@ html {
     padding-bottom: 20px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
+
 }
 
-
+/* @media screen and (min-width: 450px) {
+    
+    ;
+    } */
 /* Media qurey section */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .container {
         margin: 0;
+        padding:0
     }
 }
-
+@media screen and (max-width: 520px) {
+  .expdes{
+    font-size: 1.5rem;
+  }
+  .card-text{
+    font-size:20px
+  }
+  .exptitle{
+    font-size:12px
+  }
+  .col{
+    display: flexbox
+  };
+  }
 @media screen and (max-width:768px) {
     .navTrigger {
         display: block;
@@ -210,6 +231,7 @@ html {
     .nav div.media_button {
         display: block;
     }
+    
 }
 
 
@@ -672,7 +694,6 @@ svg{
     border-radius: 25px;
     padding:10px 20px;
     width:70vh;
-    margin:20px 20px
 }
 .exptitle{
     font-size:clamp(2rem, 7vw, 4rem);
@@ -705,7 +726,8 @@ svg{
 .col{
     margin:20px 0px;
     transition:0.5s;
-    height:auto
+    height:auto;
+    min-width:200px
 }
 .col:hover{
     transform: scale(1.03);
@@ -717,7 +739,7 @@ svg{
     text-align: center;
 }
 .card-text{
-    font-size:clamp(0.5rem, 2vw, 2rem);
+    font-size:clamp(0.5rem, 3vw, 2rem);
     margin-top:20px
 }
 .card.h-100{
