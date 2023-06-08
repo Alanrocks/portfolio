@@ -48,18 +48,18 @@ body {
 }
 
 .box2{
-    color:rgba(109, 211, 252, 0.733);
+    color:rgba(255, 217, 0, 0.733);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size:clamp(2rem, 8vw, 5rem);
-    border: 8px rgba(150, 145, 192,0.5);
+    border: 8px rgba(210, 209, 216, 0.5);
     border-style: groove;
     border-radius:5px;
-    width:50%;
+    width:30%;
     /* width:1000px; */
     margin:auto;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
     animation:fadeIn;
     animation-duration: 2s; 
     /* z-index:9999; */
